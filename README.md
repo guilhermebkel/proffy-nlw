@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="./logo.svg" height="150" width="150" alt="logo" />
+	<img src="./landing.svg" height="300" width="300" alt="landing" />
 </p>	
 
 <h3 align="center">
@@ -22,4 +22,5 @@ A fake online class platform, made during the Next Level Week 2 with help of Roc
 ## 🔧 Technologies
 
 - React.js
+- Typescript
 
