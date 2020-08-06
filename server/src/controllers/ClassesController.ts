@@ -29,7 +29,7 @@ export default class ClassesController {
 			.whereExists(function() {
 				this.select("class_schedules.*")
 					.from("class_schedules")
-					.whereRaw("`class_schedules`.`class_id` = `classes.id`")
+					.whereRaw("`class_schedules`.`class_id` = `classes`.`id`")
 					.whereRaw("`class_schedules`.`week_day` = ??", [Number(week_day)])
 					.whereRaw("`class_schedules`.`from` <= ??", [timeInMinutes])
 					.whereRaw("`class_schedules`.`to` > ??", [timeInMinutes])
